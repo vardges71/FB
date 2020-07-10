@@ -11,4 +11,5 @@ struct Storyboards {
     static let loginViewController = "logInVC"
     static let registerViewController = "registerVC"
     static let homeViewController = "homeVC"
+    static let navigationVC = "navVC"
 }

@@ -107,9 +107,10 @@ class HomeTableViewCell: UITableViewCell {
         
         self.userInfoView.addSubview(userName)
         userName.leadingAnchor.constraint(equalTo: userImage.trailingAnchor, constant: 10).isActive = true
-        userName.trailingAnchor.constraint(equalTo: userInfoView.trailingAnchor, constant: 10).isActive = true
+        userName.trailingAnchor.constraint(equalTo: userInfoView.trailingAnchor, constant: -10).isActive = true
         userName.topAnchor.constraint(equalTo: userInfoView.topAnchor, constant: 5).isActive = true
         userName.bottomAnchor.constraint(equalTo: userInfoView.bottomAnchor, constant: 5).isActive = true
+        userName.heightAnchor.constraint(equalToConstant: 25).isActive = true
 
     }
     
